@@ -1,0 +1,18 @@
+# Example of 'is' operator
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a is b)  # True (b points to the same list as a)
+print(a is c)  # False (c has the same content, but is a different object)
+
+#Example of 'in' operator
+fruits = ['apple', 'banana', 'cherry']
+
+print('banana' in fruits)  # True
+print('mango' in fruits)   # False
+
+#'in' operator can also be used in String
+sentence = "Python is fun"
+print('Python' in sentence)  # True
+print('Java' in sentence)    # False
